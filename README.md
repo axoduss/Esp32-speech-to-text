@@ -1,5 +1,5 @@
 #🎙️ ESP32-S3 Voice Assistant con Whisper Locale
-
+---
 Sistema di riconoscimento vocale offline che cattura l'audio con ESP32-S3, invia al PC per la trascrizione con faster-whisper, e visualizza il testo su display OLED.
 ---
 

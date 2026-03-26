@@ -57,7 +57,7 @@ Su Linux: sudo apt install build-essential
 
 
 ## 🚀 Installazione
-1. Configurazione Server PC
+### Configurazione Server PC
 
 
 Clona o scarica il repository

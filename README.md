@@ -26,7 +26,7 @@ Sistema di riconoscimento vocale offline che cattura l'audio con ESP32-S3, invia
 
 
 
-##💻 Software Richiesto
+## 💻 Software Richiesto
 - ESP32 (Arduino IDE)
 - Arduino IDE ≥ 2.3.8
 - ESP32 Board Package ≥ 3.x (Installato via Board Manager)
@@ -56,8 +56,9 @@ Su Linux: sudo apt install build-essential
 
 
 
-##🚀 Installazione
-### Configurazione Server PC
+## 🚀 Installazione
+1. Configurazione Server PC
+
 
 Clona o scarica il repository
 > cd Esp32-STT/server
@@ -112,7 +113,7 @@ State:0 RMS:245 FreePSRAM:7850KB
 
 
 
-##⚙️ Parametri Configurabili
+## ⚙️ Parametri Configurabili
 VAD (Voice Activity Detection)
 
 Parametro
@@ -143,7 +144,7 @@ Durata massima registrazione (10s)
 
 
 
-##🔄 Estensioni Possibili
+## 🔄 Estensioni Possibili
 - Wake-Up Word: Aggiungi rilevamento locale di "Hey ESP" con TensorFlow Lite Micro
 - Comandi vocali: Parser locale per azioni come "avanti", "stop" → controllo motore
 - Feedback audio: Buzzer o sintesi vocale locale per conferma comandi
@@ -151,7 +152,7 @@ Durata massima registrazione (10s)
 - Multi-lingua: Selezione dinamica della lingua per Whisper via comando
 
 
-##🤝 Contributi
+## 🤝 Contributi
 I contributi sono benvenuti!
 
 Made with ❤️ for the maker community

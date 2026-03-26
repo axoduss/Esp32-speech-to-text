@@ -2,7 +2,7 @@
 ---
 
 Sistema di riconoscimento vocale offline che cattura l'audio con ESP32-S3, invia al PC per la trascrizione con faster-whisper, e visualizza il testo su display OLED
----
+
 
 ## ✨ Caratteristiche
 - 🎤 **Acquisizione audio** tramite microfono digitale INMP441 (I2S)

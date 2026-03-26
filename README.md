@@ -48,7 +48,7 @@ Configurazione scheda consigliata:
 
 PC Server (Python)
 Requisiti Python 3.8+
-pip install flask faster-whisper numpy soundfile
+> pip install flask faster-whisper numpy soundfile
 
 Nota: faster-whisper richiede dipendenze native.
 Su Windows, assicurati di avere Visual C++ Redistributable installato.
@@ -57,32 +57,30 @@ Su Linux: sudo apt install build-essential
 
 
 ##🚀 Installazione
-1. Configurazione Server PC
+### Configurazione Server PC
 
 Clona o scarica il repository
-cd Esp32-STT/server
+> cd Esp32-STT/server
 
 (Opzionale) Crea virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
+>python -m venv venv
+>source venv/bin/activate  # Linux/Mac
 o
-venv\Scripts\activate     # Windows
+>venv\Scripts\activate     # Windows
 
 Installa dipendenze
-pip install -r requirements.txt
+>pip install -r requirements.txt
 
 Avvia il server
 > python server_whisper.py
 
-
-2. Configurazione ESP32
+### Configurazione ESP32
 Apri Esp32-STT.ino in Arduino IDE
 Modifica le credenziali WiFi:
 
-const char* ssid = "NOME_TUA_RETE";
-const char* password = "TUA_PASSWORD";
-const char* serverIP = "192.168.1.XX"; // IP del tuo PC
-
+>const char* ssid = "NOME_TUA_RETE";
+>const char* password = "TUA_PASSWORD";
+>const char* serverIP = "192.168.1.XX"; // IP del tuo PC
 
 Verifica i pin nel codice corrispondano al tuo cablaggio
 Seleziona la scheda e la configurazione PSRAM come indicato sopra

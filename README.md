@@ -115,31 +115,12 @@ State:0 RMS:245 FreePSRAM:7850KB
 
 ## ⚙️ Parametri Configurabili
 VAD (Voice Activity Detection)
-
-Parametro
-Default
-Descrizione
-VAD_FRAME_MS
-50
-Intervallo di analisi audio (ms)
-SILENCE_THRESHOLD
-800*
-Soglia RMS per silenzio (*adattiva)
-SPEECH_THRESHOLD
-1500*
-Soglia RMS per parlato (*adattiva)
-MIN_SPEECH_FRAMES
-4
-Frame minimi per confermare parlato (200ms)
-END_OF_SPEECH_FRAMES
-16
-Frame di silenzio per fine parlato (800ms)
-PRE_ROLL_FRAMES
-10
-Audio da includere prima dello start (500ms)
-MAX_RECORDING_FRAMES
-200
-Durata massima registrazione (10s)
+|      Component     | Quantity |                      Notes                      |   |   |
+|:------------------:|:--------:|:-----------------------------------------------:|---|---|
+| ESP32-S3 Dev Board | 1x       | Any ESP32-S3 variant (e.g., ESP32-S3-DevKitC-1) |   |   |
+| INMP441 Microphone | 1x       | I2S omnidirectional MEMS microphone             |   |   |
+| Jumper Wires       | 5x       | For connecting microphone to ESP32              |   |   |
+| USB Cable          | 1x       | For programming and power                       |   |   |
 
 
 
